@@ -13,6 +13,11 @@ int main(){
     cin.tie(NULL);
 
     // create vector 
-    vector<int> data(5); 
+    // vector<int> data(5); 
+    vector<int> data = {1,2,5};
+    // data.push_back(3);
+    // data.push_back(4);
+    data.insert(data.begin(),8);
+    data.insert(data.end(),9);
     print(data);
 }
