@@ -24,7 +24,3 @@ int main(){
     print(data);
 }
 
-
-    data.insert(data.end(),9);
-    print(data);
-}
